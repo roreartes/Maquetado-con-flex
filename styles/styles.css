@@ -1,0 +1,128 @@
+* { box-sizing: border-box; }
+ @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+
+.main-container {
+  min-height: 100vh; /* Viewport Height */
+  background-color: #ddd;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Oxygen', sans-serif;
+}
+.login-wrapper {
+  background-color: #FFF;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+}
+
+.form-wrapper{
+  min-height: 300px;
+  background-color: white; 
+  padding: 20px 20px 30px 20px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 300px;
+}
+
+.form-wrapper .form-header{
+  background-color: #fff;
+  display: flex;
+  
+  justify-content: space-between;
+  margin-bottom:40px;
+}
+.form-wrapper .content-wrapper{
+  padding: 0px 15px 0px 15px
+}
+.form-wrapper .login-tittle{
+  font-weight:600;
+  margin-bottom: 25px
+}
+.form-wrapper .first-text{
+  font-size: 15px;
+  margin-bottom: 35px;
+  
+  color: #676464;
+}
+.form-wrapper .email{
+  width:100%;
+  background-color:#EDECEC;
+  padding:12px;
+  margin-bottom:15px;
+  border:0
+  }
+.form-wrapper .password{
+  width:100%;
+  background-color:#EDECEC;
+  padding:12px;
+  margin-bottom:15px;
+  border:0
+  }
+.form-wrapper .forgot{
+  display:block;
+  text-align:right;
+  text-decoration: none;
+  color: #676464;
+  font-weight:600;
+  font-size:13px;
+  margin-bottom:20px
+}
+.form-wrapper .login-button{
+  background-color: #21B2E2;
+  color: white;
+  font-weight:600;
+  text-align: center;
+  width: 100%;
+ display: block;
+  padding: 10px 10px;
+  border-radius: 25px;
+  margin-bottom:30px;
+  border: 0;
+  text-decoration: none;
+    
+}
+.form-wrapper .line{
+  margin-bottom:30px;
+  color: #595C5D
+}
+.form-wrapper .second-text{
+  text-align: center;
+}
+
+.login-wrapper .side-wrapper {
+  width: 100%;
+  min-height: 300px;
+  padding: 0px 100px;
+  background-image: url(https://images.unsplash.com/photo-1532529867795-3c83442c1e5c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+}
+.icon{
+  display:inline-block;
+  width:30%;
+  text-align: center;
+  padding-top:4%;
+}
+
+.side-wrapper .side-text{
+  color:#F0F0F0;
+  margin-bottom: 40px;
+}
+
+.side-wrapper .side-text .text-img{
+  color: white;
+  font-size:15px;
+  font-weight:400
+}
+.side-wrapper .side-text .title-img{
+  color: white;
+  font-size:25px;
+  font-weight:600;
+  line-height:45px
+   
+}
